@@ -45,7 +45,7 @@ def reformat_languages(languages)
   new_hash = {}
 
 
-  languages.each do |sytle, list_lang|
+  languages.each do |style, list_lang|
     list_lang.each do |kind_of_lang, type|
       new_array = %i[]
       new_array << style
