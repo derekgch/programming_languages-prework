@@ -47,6 +47,8 @@ def reformat_languages(languages)
 
   languages.each do |style, list_lang|
     list_lang.each do |kind_of_lang, type|
+      if(new_hash.keys.include?(kind_of_lang))
+        new_hash[kind_of_lang][:style] << style
       new_array = %i[]
       new_array << style
       new_hash[kind_of_lang] = type.merge(style:new_array)
