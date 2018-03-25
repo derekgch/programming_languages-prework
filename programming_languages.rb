@@ -56,6 +56,7 @@ def reformat_languages(languages)
 
     end #list_lang
   end #languages
+  new_hash
 end
 
 puts reformat_languages(languages)
