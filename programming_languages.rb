@@ -54,8 +54,6 @@ def reformat_languages(languages)
         new_array << style
         new_hash[kind_of_lang] = type.merge(style:new_array)
       end
-
-
       #puts new_hash
 
     end #list_lang
