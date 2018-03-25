@@ -50,7 +50,7 @@ def reformat_languages(languages)
       new_array = %i[]
       new_array <<style
 
-      puts sytle
+      puts new_array
 
     end #list_lang
   end #languages
