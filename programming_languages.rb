@@ -46,8 +46,9 @@ def reformat_languages(languages)
 
 
   languages.each do |sytle, list_lang|
-    list_lang.each do |kind_of_lang, style|
+    list_lang.each do |kind_of_lang, type|
       new_array = %i[]
+      new_array << 
 
       puts sytle
 
