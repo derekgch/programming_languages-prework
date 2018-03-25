@@ -49,10 +49,10 @@ def reformat_languages(languages)
     list_lang.each do |kind_of_lang, type|
       new_array = %i[]
       new_array << sytle
-      new_hash[kind_of_lang] = type.merge({style:new_array}) 
-      
+      new_hash[kind_of_lang] = type.merge({style:new_array})
 
-      puts type
+
+      puts new_hash
 
     end #list_lang
   end #languages
