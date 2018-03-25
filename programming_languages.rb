@@ -48,9 +48,9 @@ def reformat_languages(languages)
   languages.each do |style, list_lang|
     list_lang.each do |kind_of_lang, type|
       new_array = %i[]
-      new_array << style
+      new_hash[] =
 
-      puts new_array
+      puts type
 
     end #list_lang
   end #languages
