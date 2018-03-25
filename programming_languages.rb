@@ -52,7 +52,7 @@ def reformat_languages(languages)
       new_hash[kind_of_lang] = type.merge(style:new_array)
 
 
-      puts new_hash
+      #puts new_hash
 
     end #list_lang
   end #languages
